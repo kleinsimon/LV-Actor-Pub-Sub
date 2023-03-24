@@ -32,6 +32,8 @@ Pub Sub</Property>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Pub Sub Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Message Channel/Pub Sub Message Channel.lvclass"/>
+		<Item Name="Pub Sub Retaining Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Retaining Message Channel/Pub Sub Retaining Message Channel.lvclass"/>
+		<Item Name="Pub Sub Status Message.lvclass" Type="LVClass" URL="../Pub Sub Status Message/Pub Sub Status Message.lvclass"/>
 		<Item Name="PubSub Status Reciever Interface.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface/PubSub Status Reciever Interface.lvclass"/>
 	</Item>
 	<Item Name="Pub Sub Action.vi" Type="VI" URL="../Helpers/Pub Sub Action.vi"/>
