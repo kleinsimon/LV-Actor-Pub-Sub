@@ -5,8 +5,10 @@ This is a demo as a proof-of-concept. Better dont use it in production code.
  
 # Description
 Ever got tiered of the quirks of keeping references to your actors enqueuers up to date and know which reference can accept which messages?
-I was... so I implemented some kind of PubSub-like helper that allows to add actors to topics and send messages to topics. Even better: It doesn't matter if the sender or the reciever comes up first.
-You can even retain messages, eleminating race-conditions during startup of actors. And (not implemented here but tested), you can create a channel that pushes serialized messages over MQTT or something else.
+I was... so I implemented some kind of PubSub-like helper that allows to add actors to topics and send messages to topics. 
+These topics may simple be strings, but -more interstingly- may also be interfaces. So you can simply send a message related to an interface some of your actors implement to the channel associated to this interface. As the sender, you can do nothing wrong. You simply have to make sure, that your actors subscribe to the interfaces they implement. 
+Even better: It doesn't matter if the sender or the reciever comes up first. And subscriptions can be made and rejected anytime in runtime.
+You can even retain messages, eleminating race-conditions during startup of actors. And (not implemented here but tested), you can create a channel that pushes serialized messages over MQTT or something else. Or you can create load-balancing channels... Or a /dev/null channel if you like... Or you can subscribe a channel to all other channels, that logs your messages... 
 
 # Usage
 Subscribe your actor anytime, anywhere to a topic either given by a string id or by a class / interface:
