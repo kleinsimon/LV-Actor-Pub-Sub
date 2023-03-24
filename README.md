@@ -29,7 +29,7 @@ Unsubscribe the actor anytime or when it stops. If no subscribers are left, the 
 
 # Details
 
-Every channel has its own message queue and runs asynchronous. It keeps track of the subscribed actors (identified by their enqueuer). When a message is dequeued, copies of it are send to every subscribed enqueuer.
+Every channel has its own message queue and runs asynchronously. It keeps track of the subscribed actors (identified by their enqueuer). When a message is dequeued, copies of it are send to every subscribed enqueuer.
 The management of the channels and their assoicited topics is done using a single VI, which is wrapped by some helpers. This way, no references need to be passed, everything is stored in the non-reentrant registry, which is associated to the application instance.
 
 # Dependencies
