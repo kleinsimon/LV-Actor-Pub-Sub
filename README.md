@@ -18,7 +18,7 @@ Subscribe your actor anytime, anywhere to a topic either given by a string id or
 ![grafik](https://user-images.githubusercontent.com/4790227/227496376-629ff2bd-2431-4c37-bc54-3625e60f934e.png)
 
 
-Send a message ( to the topic channel anywhere, anytime:
+Send a message (publish) to the topic channel anywhere, anytime:
 
 ![grafik](https://user-images.githubusercontent.com/4790227/227496886-d689a02a-f8c7-4d6d-8837-18e377b41c3c.png)
 
