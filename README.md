@@ -1,4 +1,4 @@
-# LV AF PubSub
+# LabVIEW ActorFramework PubSub Channels
 A PubSub solution for LabVIEW Actors.
 
 This is a demo as a proof-of-concept. Better dont use it in production code.
