@@ -4,7 +4,7 @@ A PubSub solution for LabVIEW Actors.
 This is a demo as a proof-of-concept. Better dont use it in production code.
  
 # Description
-Ever got tiered of the quirks of keeping references to your actors enqueuers up to date, know which reference can accept which messages and these awful race-conditions in the initialization process of multiple actors (Frontpanels...)?
+Ever got tired of the quirks of keeping references to your actors enqueuers up to date, know which reference can accept which messages and these awful race-conditions in the initialization process of multiple actors (Frontpanels...)?
 I was... so I implemented some kind of PubSub-like helper that allows to add actors to topics and send messages to topics. 
 
 These topics may simple be strings, but -more interstingly- may also be interfaces. So you can simply send a message related to an interface some of your actors implement to the channel associated to this interface. As the sender, you can do nothing wrong. You simply have to make sure, that your actors subscribe to the interfaces they implement. 
