@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-04-02 10:31:09" Modified_Date="2023-04-02 12:01:27" Creator="Simon" Comments="" ID="7076d895f4d484fdffd610499b805aff">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-04-02 10:31:09" Modified_Date="2023-04-02 12:16:43" Creator="Simon" Comments="" ID="4b568f4f73b19ff6874fd2f0bed7afc4">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_AF_Pub_Sub_Channels</Package_File_Name>
-    <Library_Version>0.2.0.4</Library_Version>
+    <Library_Version>0.2.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>..</Library_Source_Folder>
-    <Library_Output_Folder>..\..</Library_Output_Folder>
+    <Library_Source_Folder>.</Library_Source_Folder>
+    <Library_Output_Folder>..</Library_Output_Folder>
     <Company_Name>sklein</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -101,6 +101,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Simple Chat</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -111,6 +117,36 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>builds</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Source/AF MQTT Channel</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Source/MQTT Chat</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Source/Actor Pub Sub.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitattributes</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>.gitignore</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>LICENSE</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>AF MQTT Channel</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>MQTT Chat</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Actor Pub Sub.lvproj</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -241,7 +277,7 @@
         <Path>Actor Pub Sub Channels\Helpers\Setup Channel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B62342702E7441B03FA79B8E60FB738</GUID>
+      <GUID>B295BC90BE29387673D2623145A042AE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
