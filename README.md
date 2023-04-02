@@ -10,7 +10,8 @@ I was... so I implemented some kind of PubSub-like helper that allows to add act
 These topics may simple be strings, but -more interstingly- may also be interfaces. So you can simply send a message related to an interface some of your actors implement to the channel associated to this interface. As the sender, you can do nothing wrong. You simply have to make sure, that your actors subscribe to the interfaces they implement. 
 Even better: It doesn't matter if the sender or the reciever comes up first. And subscriptions can be made and rejected anytime in runtime.
 
-You can even retain messages, eleminating race-conditions during startup of actors. And you can create a channel that pushes serialized messages over MQTT. Or you can create load-balancing channels... Or a /dev/null channel if you like... Or you can subscribe a channel to all other channels, that logs your messages...
+You can even retain messages, eleminating race-conditions during startup of actors. And you can create a channel that pushes serialized messages over MQTT.
+Or you could create your own load-balancing channels... Or a /dev/null channel if you like... Or you can subscribe a channel to all other channels, that logs your messages...
 
 The biggest impact nevertheless is the ability to create zero-coupled extensions and plugins, using PubSub-Channels and interfaces. This way, neither the sender(s) nor the receiver(s) have to know anything of the other side
 
