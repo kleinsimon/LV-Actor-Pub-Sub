@@ -17,13 +17,14 @@ Pub Sub</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Channel Registry.vi" Type="VI" URL="../Helpers/Channel Registry.vi"/>
 		<Item Name="Close Channel Message.lvclass" Type="LVClass" URL="../Close Channel Message/Close Channel Message.lvclass"/>
-		<Item Name="Recieve New Subscription Msg.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface Messages/Recieve New Subscription Msg/Recieve New Subscription Msg.lvclass"/>
-		<Item Name="Recieve Unsubscription Msg.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface Messages/Recieve Unsubscription Msg/Recieve Unsubscription Msg.lvclass"/>
+		<Item Name="Receive New Subscription Msg.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface Messages/Recieve New Subscription Msg/Receive New Subscription Msg.lvclass"/>
+		<Item Name="Receive Unsubscription Msg.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface Messages/Recieve Unsubscription Msg/Receive Unsubscription Msg.lvclass"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Dispose Empty Channels.vi" Type="VI" URL="../Helpers/Dispose Empty Channels.vi"/>
 		<Item Name="Get Class Topic Enqueuer.vi" Type="VI" URL="../Helpers/Get Class Topic Enqueuer.vi"/>
 		<Item Name="Get Topic Enqueuer.vi" Type="VI" URL="../Helpers/Get Topic Enqueuer.vi"/>
+		<Item Name="Setup Channel.vi" Type="VI" URL="../Helpers/Setup Channel.vi"/>
 		<Item Name="Subscribe Actor to Class Topic.vi" Type="VI" URL="../Helpers/Subscribe Actor to Class Topic.vi"/>
 		<Item Name="Subscribe Actor to Interface.vim" Type="VI" URL="../Helpers/Subscribe Actor to Interface.vim"/>
 		<Item Name="Subscribe Actor to Topic.vi" Type="VI" URL="../Helpers/Subscribe Actor to Topic.vi"/>
@@ -34,7 +35,7 @@ Pub Sub</Property>
 		<Item Name="Pub Sub Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Message Channel/Pub Sub Message Channel.lvclass"/>
 		<Item Name="Pub Sub Retaining Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Retaining Message Channel/Pub Sub Retaining Message Channel.lvclass"/>
 		<Item Name="Pub Sub Status Message.lvclass" Type="LVClass" URL="../Pub Sub Status Message/Pub Sub Status Message.lvclass"/>
-		<Item Name="PubSub Status Reciever Interface.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface/PubSub Status Reciever Interface.lvclass"/>
+		<Item Name="PubSub Status Receiver Interface.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface/PubSub Status Receiver Interface.lvclass"/>
 	</Item>
 	<Item Name="Pub Sub Action.vi" Type="VI" URL="../Helpers/Pub Sub Action.vi"/>
 </Library>

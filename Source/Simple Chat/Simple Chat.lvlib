@@ -5,10 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Recieve Message Msg.lvclass" Type="LVClass" URL="../Simple Chat Messages/Recieve Message Msg/Recieve Message Msg.lvclass"/>
+		<Item Name="Receive Message Msg.lvclass" Type="LVClass" URL="../Simple Chat Messages/Recieve Message Msg/Receive Message Msg.lvclass"/>
 	</Item>
 	<Item Name="Chat Launcher.vi" Type="VI" URL="../Chat Launcher.vi"/>
-	<Item Name="Message Reciever Interface.lvclass" Type="LVClass" URL="../Message Reciever Interface/Message Reciever Interface.lvclass"/>
-	<Item Name="MQTT Chat Launcher.vi" Type="VI" URL="../MQTT Chat Launcher.vi"/>
+	<Item Name="Message Receiver Interface.lvclass" Type="LVClass" URL="../Message Reciever Interface/Message Receiver Interface.lvclass"/>
 	<Item Name="Simple Chat.lvclass" Type="LVClass" URL="../Simple Chat/Simple Chat.lvclass"/>
 </Library>
