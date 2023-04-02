@@ -8,6 +8,7 @@
 		<Item Name="Receive Message Msg.lvclass" Type="LVClass" URL="../Simple Chat Messages/Recieve Message Msg/Receive Message Msg.lvclass"/>
 	</Item>
 	<Item Name="Chat Launcher.vi" Type="VI" URL="../Chat Launcher.vi"/>
+	<Item Name="Chat Messages Interface.lvclass" Type="LVClass" URL="../Chat Messages Interface/Chat Messages Interface.lvclass"/>
 	<Item Name="Message Receiver Interface.lvclass" Type="LVClass" URL="../Message Reciever Interface/Message Receiver Interface.lvclass"/>
 	<Item Name="Simple Chat.lvclass" Type="LVClass" URL="../Simple Chat/Simple Chat.lvclass"/>
 </Library>

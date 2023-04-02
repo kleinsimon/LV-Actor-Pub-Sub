@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-04-02 10:31:09" Modified_Date="2023-04-02 11:20:36" Creator="Simon" Comments="" ID="4e444c1e5d00d980199c0abe44e0db4a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-04-02 10:31:09" Modified_Date="2023-04-02 12:01:27" Creator="Simon" Comments="" ID="7076d895f4d484fdffd610499b805aff">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_AF_Pub_Sub_Channels</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.2.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\..</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>changed channel setup to show poly selector</Release_Notes>
+      <Release_Notes>changed filters to LV Object to allow message interfaces and ABC</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -241,7 +241,7 @@
         <Path>Actor Pub Sub Channels\Helpers\Setup Channel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC88292071F732A36C80740322F8FF3C</GUID>
+      <GUID>8B62342702E7441B03FA79B8E60FB738</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
