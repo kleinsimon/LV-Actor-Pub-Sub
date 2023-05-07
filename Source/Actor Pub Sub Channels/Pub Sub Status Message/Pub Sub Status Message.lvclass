@@ -2,11 +2,21 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Actor Pub Sub Channels.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Actor Pub Sub Channels.lvlib</Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(]!!!*Q(C=\&gt;7R=2MR%!81N=?"5X&lt;A91P&lt;!FNA#^M#5Y6M96NA"R[WM#WQ"&lt;9A0ZYR'E?G!WPM1$AN&gt;@S(!ZZQG&amp;0%VLZ'@)H8:_X\&lt;^P(^7@8H\4Y;"`NX\;8JZPUX@@MJXC]C.3I6K5S(F/^DHTE)R`ZS%@?]J;XP/5N&lt;XH*3V\SEJ?]Z#F0?=J4HP+5&lt;Y=]Z#%0/&gt;+9@%QU"BU$D-YI-4[':XC':XB]D?%:HO%:HO(2*9:H?):H?)&lt;(&lt;4%]QT-]QT-]BNIEMRVSHO%R@$20]T20]T30+;.Z'K".VA:OAW"%O^B/GK&gt;ZGM&gt;J.%`T.%`T.)`,U4T.UTT.UTROW6;F.]XDE0-9*IKH?)KH?)L(U&amp;%]R6-]R6-]JIPC+:[#+"/7Q2'CX&amp;1[F#`&amp;5TR_2@%54`%54`'YN$WBWF&lt;GI8E==J\E3:\E3:\E-51E4`)E4`)EDW%D?:)H?:)H?5Q6S:-]S:-A;6,42RIMX:A[J3"Z`'S\*&lt;?HV*MENS.C&lt;&gt;Z9GT,7:IOVC7*NDFA00&gt;&lt;$D0719CV_L%7.N6CR&amp;C(7(R=,(1M4;Z*9.T][RNXH46X62:X632X61?X6\H(L8_ZYP^`D&gt;LP&amp;^8K.S_53Z`-Z4K&gt;4()`(/"Q/M&gt;`P9\@&lt;P&lt;U'PDH?8AA`XUMPTP_EXOF`[8`Q&lt;IT0]?OYVOA(5/(_Z!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+K!!!*Q(C=T:1`EF*"%)&gt;`;RG9=A/,V,#PQ"7Y1F_"T44E#JW^AIR.T!H-.OJQ$3FPA+&amp;774J_&lt;RDA];&gt;E!\&gt;UBA&lt;?L[?\P_G:?F)&gt;&lt;[48+L&gt;'^]&gt;2`@V8[7&gt;JUMF$]\8:$98L]&gt;VF`$"EG/TILW&amp;$:2"`G\^5WY'50?:/&lt;OF0KD8%\LTEW?&gt;!=5QY^(&gt;NF_5C`CA`D`_1K$M!F[-UW.+R63=\'GTUU0VB`,(TX&gt;ZXWP]SL&amp;@;ZJ`(@WN]X)`(R]@&amp;YP\_C@(Z)*\\&amp;U``T,^=(0Q0V`TPFMO&gt;`_(B_T8`&lt;M7*^]T@LTDR8PAPRMXW]B\Y=0M18H:)&gt;_J@2&amp;BCA4FG[FUFU2-^U2-^U2-^U!-^U!-^U!0&gt;U2X&gt;U2X&gt;U2X&gt;U!X&gt;U!X&gt;U!W^4H3B#VXI&gt;#5JHB2+EC9*EM7A+0F+?"+?B#@BY6%*4]+4]#1]#1^,F0!E0!F0QJ0Q%+;%*_&amp;*?"+?B)&gt;5F34L2)=HY3'^!J[!*_!*?!)?3CLA#1##9E(C)!E9#JT"HY!HY!FY_+O!*_!*?!+?A!?X!J[!*_!*?!)?1GJ8IN,U%RU?UMDB=8A=(I@(Y3'V("[(R_&amp;R?"Q?SMHB=8A=#+?AERQ%/5(/!O@"Y8&amp;Y_*($Y`!Y0![0QY/LHJ$8TP1U`53(R_!R?!Q?A]@A)95-(I0(Y$&amp;Y$"\3SO!R?!Q?A]@AI:1-(I0(Y$&amp;!D++5FZ(-#$17'9,"Q[@?&amp;KOH&amp;*8%[J4;Z67\F'K84?U3K6U/N5.8/USV1V*LPFJ4V:KFVA3VT;F"K]'I&amp;6%,\B&gt;KS`='7W-L&lt;)\.M#EWQ=&lt;9K!`^SQOXW[UWGYX7[\67KZ8G]\FGMZGGU[EGEYH'Y\&amp;'IZ(WYSVT._Z?\,XU[`VV`=O05LZ^,?8HJ]&amp;\[8^Y._K6&gt;L_((PU',BTS;A!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
+	<Property Name="Provider_ColorFrame" Type="UInt">0</Property>
+	<Property Name="Provider_ColorHeader" Type="UInt">4893243</Property>
+	<Property Name="Provider_ColorPrivate" Type="UInt">16448250</Property>
+	<Property Name="Provider_ColorProtected" Type="UInt">13816530</Property>
+	<Property Name="Provider_ColorPublic" Type="UInt">4718767</Property>
+	<Property Name="Provider_ColorTextBody" Type="UInt">16777215</Property>
+	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
+	<Property Name="Provider_HeaderString" Type="Str">Pub Sub
+Status
+Message</Property>
 </LVClass>
