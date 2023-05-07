@@ -13,6 +13,11 @@
 	<Property Name="Provider_ColorTextHeader" Type="UInt">0</Property>
 	<Property Name="Provider_HeaderString" Type="Str">AF
 Pub Sub</Property>
+	<Item Name="Channels" Type="Folder">
+		<Item Name="Pub Sub Event Channel.lvclass" Type="LVClass" URL="../Pub Sub Event Channel/Pub Sub Event Channel.lvclass"/>
+		<Item Name="Pub Sub Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Message Channel/Pub Sub Message Channel.lvclass"/>
+		<Item Name="Pub Sub Retaining Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Retaining Message Channel/Pub Sub Retaining Message Channel.lvclass"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Channel Registry.vi" Type="VI" URL="../Helpers/Channel Registry.vi"/>
@@ -31,10 +36,9 @@ Pub Sub</Property>
 		<Item Name="Unsubscribe Topic.vi" Type="VI" URL="../Helpers/Unsubscribe Topic.vi"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Item Name="Pub Sub Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Message Channel/Pub Sub Message Channel.lvclass"/>
-		<Item Name="Pub Sub Retaining Message Channel.lvclass" Type="LVClass" URL="../Pub Sub Retaining Message Channel/Pub Sub Retaining Message Channel.lvclass"/>
 		<Item Name="Pub Sub Status Message.lvclass" Type="LVClass" URL="../Pub Sub Status Message/Pub Sub Status Message.lvclass"/>
 		<Item Name="PubSub Status Reciever Interface.lvclass" Type="LVClass" URL="../PubSub Status Reciever Interface/PubSub Status Reciever Interface.lvclass"/>
 	</Item>
+	<Item Name="Close Channel.vi" Type="VI" URL="../Helpers/Close Channel.vi"/>
 	<Item Name="Pub Sub Action.vi" Type="VI" URL="../Helpers/Pub Sub Action.vi"/>
 </Library>
